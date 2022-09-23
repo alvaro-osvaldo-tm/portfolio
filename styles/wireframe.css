@@ -1,0 +1,13 @@
+.wireframe {
+  background-color: white;
+}
+.wireframe h1 {
+  background-color: darkgrey;
+  color: darkgrey;
+}
+
+.wireframe article,
+.wireframe section,
+.wireframe div {
+  border: thin solid black;
+}

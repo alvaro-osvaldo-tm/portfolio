@@ -1,0 +1,15 @@
+:root {
+  --base-a: #ffffff;
+  --base-b: #c2c2c2;
+  --base-c: #c2c2c2;
+  --base-d: #c2c2c2;
+  --base-e: #c2c2c2;
+}
+
+:root2 {
+  --base-a: #f2ecce;
+  --base-b: #f2d06b;
+  --base-c: #f2aa6b;
+  --base-d: #f2784b;
+  --base-e: #d93232;
+}

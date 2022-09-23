@@ -1,0 +1,32 @@
+@import url('/styles/colors.css');
+
+body {
+  background-color: var(--base-c);
+}
+
+.story:nth-child(1n) {
+  background-color: var(--base-b);
+}
+
+.story:nth-child(2n) {
+  background-color: var(--base-c);
+}
+
+.story > header {
+  --start: 25px;
+  --stop: 30px;
+
+  background: linear-gradient(
+    180deg,
+    transparent 0%,
+    transparent calc(var(--start)),
+    rgba(0, 0, 255, 1) calc(var(--start)),
+    rgba(0, 0, 255, 1) calc(var(--stop)),
+    transparent calc(var(--stop) - 10px)
+  );
+}
+
+.story > header > .col > i {
+  border: solid 2px red;
+  border-radius: 100%;
+}
